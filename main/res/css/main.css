@@ -1,0 +1,54 @@
+body{
+    background: #9D50BB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.nav-item.active{
+    border-bottom: 3px solid #cc0bcc;
+}
+.nav-item.active a.nav-link{
+    color: #cc0bcc !important;
+}
+
+.paginate_button {
+    position: relative;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #9a4fba;
+    background-color: #fff;
+    border: 1px solid #9a4fba;
+    outline: none;
+}
+.paginate_button:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.paginate_button.current{
+    background: #9a4fba;
+    color: white;
+    font-weight: bold;
+    border-color: #9f5dff;
+}
+.paginate_button.disabled{
+    display: none;
+    visibility: hidden;
+}
+.dataTables_paginate > .paginate_button:first-child  {
+    margin-left: 0;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+}
+.dataTables_paginate > .paginate_button:last-child {
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+#dataTable_paginate{
+    float: right;
+    padding-top: 0.85em;
+}
+#dataTable_info{
+    float: left;
+    padding-top: 0.45em;
+}
