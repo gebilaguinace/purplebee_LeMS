@@ -1279,7 +1279,6 @@ Route::get("/os/print", function (){
 		// Restrict other user from accessing this area
 		LoginChecker::thrower("os");
 
-
 		$sql = "SELECT 	amount as monthly,
 		amount/2 as semi_monthly,
         (amount/2)*6 as gross_loan,

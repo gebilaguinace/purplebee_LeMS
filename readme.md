@@ -3,14 +3,30 @@
 A Simple College Project
 
 ### Table of Contents
-* Database Structure
-* List of Accounts
-* Administrator Pages
-* Branch Manager Pages
-* Field Collector Pages
-* Office Staff Pages
+* [Database Structure](#database-structure)
+* [Future Update](#future-updates) 
+* [List of Accounts](#list-of-accounts)
+* [Administrator Pages](#administrator-pages)
+* [Branch Manager Pages](#branch-manager-pages)
+* [Field Collector Pages](#field-collector-pages)
+* [Office Staff Pages](#office-staff-pages)
 
 ## Database Structure
+
+## Future Updates
+* Remove Office Staff.
+* Change Branch Manager Monthly Interest.
+* Add Monthly Branch Manager Report.
+* Remove Old Field Collector Page.
+* Create New Field Collector Page.
+* Add Field Collector's Own Client Management System.
+* Add Field Collector's Monthly Report.
+* Add Field Collector's Daily Report.
+* Add Field Collector's Own Saving Management System.
+* Add Field Collector's Printable Page.
+* Create More Effective Administrator Page Report.
+* Add Adminstrator Graph Report.
+* Add Branch Manager Generate Excel Report.
 
 ## List of Accounts
 1. Administrator 
@@ -21,7 +37,7 @@ A Simple College Project
 ## Administrator Pages
 1. Branch List `/admin/branches`
 2. Account List `/admin/accounts`
-3. Change Password ``
+3. Change Password `/admin/password`
 
 ## Branch Manager Pages
 1. Customer List `/bm/customers`
@@ -35,4 +51,4 @@ A Simple College Project
 
 ## Office Staff Pages
 1. Print  `/os/print`
-2. Change Password ``
+2. Change Password `/os/password`
