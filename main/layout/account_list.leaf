@@ -32,6 +32,10 @@
                 <a class="nav-link text-white" href="#">Accounts</a>
                 <span class="sr-only">(current)</span>
             </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="/admin/password">Change Password</a>
+                <span class="sr-only">(current)</span>
+            </li>
 
         </ul>
         <ul class="navbar-nav">
@@ -112,7 +116,10 @@
         <thead>
         <tr>
             <th>ID</th>
+            <th>First name</th>
+            <th>Last name</th>
             <th>Username</th>
+            <th>Password</th>
             <th>Employee type</th>
             <th>Branch Location</th>
             <th>Actions</th>
@@ -231,27 +238,6 @@
         </form>
     </div>
 </div>
-
-<!-- Modal Detail -->
-<div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="detailModal" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content" >
-            <div class="modal-header bg-success text-white">
-                <h5 class="modal-title">Account Details: </h5>
-                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <b>Total Jobs: </b>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
 <script type="text/javascript">
     $(document).ready(function () {
 
@@ -269,10 +255,9 @@
                 "createdCell": function(td, cellData, rowData, row, col){
                     $(td).html(
                             "<button data-id=\"" +cellData+ "\" type=\"button\" class=\"mr-1 editBtn btn btn-outline-primary\" data-toggle=\"modal\" data-target=\"#addAccountModal\">Edit</button>" +
-                            "<button data-id=\"" +cellData+ "\" type=\"button\" class=\"mr-1 detailsBtn btn btn-outline-success\" data-toggle=\"modal\" data-target=\"#detailModal\">Details</button>" +
-                            "<button data-id=\"" +cellData+ "\" type=\"button\" class=\"mr-1 deleteBtn btn btn-outline-danger\" data-toggle=\"modal\" data-target=\"#deleteModal\"> Delete</button>"
+                            "<button data-id=\"" +cellData+ "\" type=\"button\" class=\"mr-1 deleteBtn btn btn-danger\" data-toggle=\"modal\" data-target=\"#deleteModal\"> Delete</button>"
                     );
-                    $(td).css("width", "240px");
+                    $(td).css("width", "150px");
                 }
             }],
             language: {

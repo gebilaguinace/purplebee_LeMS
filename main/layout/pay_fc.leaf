@@ -115,7 +115,7 @@
         </div>
     </div>
 </div>
-<div class="luispogi" id="miranda">that is amazing</div>
+
 <!-- Modal Delete -->
 <div class="modal fade" id="payModal" tabindex="-1" role="dialog" aria-labelledby="payModal" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -127,6 +127,10 @@
                 </button>
             </div>
             <div class="modal-body">
+                {# Warning Message #}
+                <div class="alert alert-warning" role="alert">
+                    <b>Warning: </b>Any accident under/over payment input is your liability. Please finalize the payment before proceeding and be guided accordingly.
+                </div>
                 Make a payment to a customer loan.
                 <input type="hidden" id="customerID" name="customerID" value="">
                 <input type="number" class="form-control" id="amount" name="amount" placeholder="Enter Amount" required>
@@ -269,7 +273,6 @@
             }
         });
     });
-
 </script>
 </body>
 </html>

@@ -3,7 +3,7 @@ Options -Indexes
 
 # Set the Default Index File
 # Example: DirectoryIndex first.html index.htm index.html index.php
-DirectoryIndex main/index.php
+DirectoryIndex /main/index.php
 
 # ---- Setup Document Error Pages ---- #
 # Bad_Request

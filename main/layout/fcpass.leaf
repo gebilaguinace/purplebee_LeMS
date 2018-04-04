@@ -8,13 +8,10 @@
     <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\jquery.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\select.bootstrap4.min.css">
     <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\bootstrap-tagsinput.css">
-
     <script type="text/javascript" src="{{ config.VENDOR_DIR }}\jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="{{ config.VENDOR_DIR }}\twbs/bootstrap/dist/js/bootstrap.js"></script>
     <script type="text/javascript" src="{{ config.JS_DIR }}\jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="{{ config.JS_DIR }}\bootstrap-tagsinput.min.js"></script>
-
-
     <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\main.css">
 </head>
 <body>

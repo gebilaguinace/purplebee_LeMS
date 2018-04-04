@@ -203,10 +203,12 @@ Route::post("/list_accounts", function($requestData){
 		// datatable column index  => database column name
 		$columns = array(
 			0 => 'id',
-			1 => 'username',
-			2 => 'emptype',
-			3 => 'location',
-			4 => 'id'
+			1 => 'fname',
+			2 => 'lname',
+			3 => 'username',
+			4 => 'password',
+			5 => 'emptype',
+			6 => 'location'
 		);
 
 		// getting total number records without any search
@@ -216,8 +218,15 @@ Route::post("/list_accounts", function($requestData){
 		);
 		$totalData = mysqli_num_rows($query);
 
-		$sql = "SELECT u.id, u.username, u.emptype, cb.location FROM `users` u, `employee_details` emp, `company_branches` cb
-                	WHERE emp.branch_id = cb.id AND emp.user_id=u.id AND u.emptype!='ad'";
+		$sql = "SELECT 	u.id,
+                        emp.fname,
+                        emp.lname,
+                        u.username,
+                        u.password,
+                        u.emptype,
+                        cb.location 
+                FROM `users` u, `employee_details` emp, `company_branches` cb
+                    WHERE emp.branch_id = cb.id AND emp.user_id=u.id AND u.emptype!='ad'";
 
 		// Getting records as per search parameters
 		if( !empty($requestData['search']['value']) )
@@ -235,7 +244,10 @@ Route::post("/list_accounts", function($requestData){
 			$nestedData=array();
 
 			$nestedData[] = $row["id"];
+			$nestedData[] = $row["fname"];
+			$nestedData[] = $row["lname"];
 			$nestedData[] = $row["username"];
+			$nestedData[] = $row["password"];
 			$nestedData[] = LoginChecker::convertToText($row["emptype"]);
 			$nestedData[] = $row["location"];
 			$nestedData[] = $row["id"];
@@ -275,6 +287,22 @@ Route::get("/admin/branches", function(){
 
 		// Render the View Interfce
 		Route::render("branch_list.leaf", array(
+			"hasFlashCard" => FlashCard::hasFlashCard(),
+			"flashCard" => FlashCard::hasFlashCard() ? FlashCard::getFlashCard() : "",
+			"accountType" => LoginChecker::convertToText(LoginChecker::getAccountType())
+		));
+	}
+});
+Route::get("/admin/password", function(){
+	if (!LoginChecker::isLogin()){
+		header("location: /");
+		exit;
+	}else{
+		// Restrict other user from accessing this area
+		LoginChecker::thrower("ad");
+
+		// Render the View Interfce
+		Route::render("adminpass.leaf", array(
 			"hasFlashCard" => FlashCard::hasFlashCard(),
 			"flashCard" => FlashCard::hasFlashCard() ? FlashCard::getFlashCard() : "",
 			"accountType" => LoginChecker::convertToText(LoginChecker::getAccountType())
@@ -357,7 +385,8 @@ Route::post("/list_branches", function($requestData){
 			0 => 'location',
 			1 => 'emp_count',
 			2 => 'cust_count',
-			3 => 'id'
+			3 => 'loan_proceed',
+			4 => 'gross_loan',
 		);
 
 		// getting total number records without any search
@@ -366,10 +395,22 @@ Route::post("/list_branches", function($requestData){
 		);
 		$totalData = mysqli_num_rows($query);
 
-		$sql = "SELECT cb.id as id, cb.location AS location,
-                   (SELECT COUNT(ed.id) FROM employee_details ed WHERE ed.branch_id = cb.id) AS emp_count,
-                   (SELECT COUNT(cust.id) FROM customer cust WHERE cust.branch_id = cb.id) AS cust_count
-            FROM company_branches cb";
+		$sql = "SELECT 	cb.id as id,
+                    cb.location as location,
+                    COUNT(DISTINCT  ed.id) as emp_count,
+                    COUNT(DISTINCT cust.id)  as cust_count,
+                    IFNULL(SUM(DISTINCT lend.amount), 0) as loan_proceed,
+                    IFNULL(SUM(DISTINCT pay.amount), 0) as gross_loan
+                FROM company_branches cb
+                    LEFT JOIN employee_details ed
+                        ON(cb.id=ed.branch_id)
+                    LEFT JOIN customer cust
+                        ON(cb.id=cust.branch_id)
+                    LEFT JOIN lending lend
+                        ON(cust.id=lend.customer_id)
+                    LEFT JOIN payment_history pay
+                        ON(lend.id=pay.lending_id)
+                    GROUP BY cb.id";
 
 // getting records as per search parameters
 		if( !empty($requestData['search']['value']) )
@@ -388,6 +429,8 @@ Route::post("/list_branches", function($requestData){
 			$nestedData[] = $row["location"];
 			$nestedData[] = $row["emp_count"];
 			$nestedData[] = $row["cust_count"];
+			$nestedData[] = $row["loan_proceed"];
+			$nestedData[] = $row["gross_loan"];
 			$nestedData[] = $row["id"];
 
 			$data[] = $nestedData;
@@ -1139,6 +1182,8 @@ Route::post("/changePassword", function($data){
 				header("location: /bm/password");
 			}elseif (LoginChecker::getAccountType() == "fc"){
 				header("location: /fc/password");
+			}elseif (LoginChecker::getAccountType() == "ad"){
+				header("location: /admin/password");
 			}elseif (LoginChecker::getAccountType() == "os"){
 				header("location: /os/password");
 			}
@@ -1232,10 +1277,51 @@ Route::get("/os/print", function (){
 		exit;
 	}else {
 		// Restrict other user from accessing this area
-		LoginChecker::thrower("fc");
+		LoginChecker::thrower("os");
+
+
+		$sql = "SELECT 	amount as monthly,
+		amount/2 as semi_monthly,
+        (amount/2)*6 as gross_loan,
+        ((amount/2)*6)/1.137 as loan_proceed,
+        ((amount/2)*6)  - ((amount/2)*6)/1.137 as interest,
+     
+      	((amount/2)*6)*0.023 as insurance,
+        ((amount/2)*6)/200 as document_stamp,
+        (((amount/2)*6)  - ((amount/2)*6)/1.137)*0.05 as percentage_tax,
+        (((amount/2)*6)-((amount/2)*6)/1.137) + (((amount/2)*6)*0.023) +  (((amount/2)*6)/200) + ((((amount/2)*6)  - ((amount/2)*6)/1.137)*0.05) as total_deduction
+		
+FROM `debt` WHERE 1 GROUP BY `lending_id`";
+
+		$query = mysqli_query(MySqlLeaf::getCon(), $sql);
+		$arr = array();
+
+		while ($row = mysqli_fetch_array($query)){
+            array_push($arr, $row);
+        }
 
 		// Render the View Interfce
 		Route::render("print.leaf", array(
+			"hasFlashCard" => FlashCard::hasFlashCard(),
+			"flashCard" => FlashCard::hasFlashCard() ? FlashCard::getFlashCard() : "",
+			"accountType" => LoginChecker::convertToText(LoginChecker::getAccountType()),
+			"branchName" => LoginChecker::getBranchName(),
+            "data" => $arr
+		));
+	}
+});
+
+Route::get("/os/password", function (){
+	// ASDASDasdasd asdas d asASD as
+	if (!LoginChecker::isLogin()){
+		header("location: /");
+		exit;
+	}else {
+		// Restrict other user from accessing this area
+		LoginChecker::thrower("os");
+
+		// Render the View Interfce
+		Route::render("ospass.leaf", array(
 			"hasFlashCard" => FlashCard::hasFlashCard(),
 			"flashCard" => FlashCard::hasFlashCard() ? FlashCard::getFlashCard() : "",
 			"accountType" => LoginChecker::convertToText(LoginChecker::getAccountType()),

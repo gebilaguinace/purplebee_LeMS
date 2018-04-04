@@ -12,7 +12,7 @@
     <script type="text/javascript" src="{{ config.VENDOR_DIR }}\twbs/bootstrap/dist/js/bootstrap.js"></script>
     <script type="text/javascript" src="{{ config.JS_DIR }}\jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="{{ config.JS_DIR }}\bootstrap-tagsinput.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\main.css">
+    <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\main.css" id="css">
 </head>
 <body>
 
@@ -51,10 +51,10 @@
 
 <div class="container-fluid card p-3 mr-5 ml-5">
     <div class="float-right">
-        <button onclick="print()" class="btn btn-primary">Print</button>
+        <button onclick="printThis()" class="btn btn-primary">Print</button>
     </div>
     <b>Collection:</b>
-    <table border="1" style="width: 100%">
+    <table border="1" style="width: 100%" id="printable">
         <thead>
             <tr>
                 <th>Customer Name</th>
@@ -89,5 +89,25 @@
     <b>Submitted By:</b>
     <b>{{ name|capitalize }}</b>
 </div>
+<script type="text/javascript">
+
+    function printThis(){
+        var $body = $("body");
+        var $backup = $body.html();
+        var $css = $("#css");
+        var $backupCss = $css.attr("href");
+
+        // Tanggal Laman
+        $body.html($("table#printable"));
+        $css.attr("href", "#");
+
+        print();
+        // Balik laman
+        $body.html($backup);
+        $css.attr("href", $backupCss);
+
+    }
+</script>
+
 </body>
 </html>

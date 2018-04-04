@@ -12,7 +12,7 @@
     <script type="text/javascript" src="{{ config.VENDOR_DIR }}\twbs/bootstrap/dist/js/bootstrap.js"></script>
     <script type="text/javascript" src="{{ config.JS_DIR }}\jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="{{ config.JS_DIR }}\bootstrap-tagsinput.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\main.css">
+    <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\main.css" id="css">
 </head>
 <body>
 
@@ -43,5 +43,61 @@
         </ul>
     </div>
 </nav>
+
+<div class="container-fluid card p-3 mr-5 ml-5">
+    <h2> Months </h2>
+    <div> <button class="btn btn-primary" onclick="printThis()">Print</button> </div>
+
+    <table border="1" style="width: 100%;" id="printable">
+        <thead>
+        <tr>
+            <th>Monthly</th>
+            <th>Semi-Monthly</th>
+            <th>Gross Loan</th>
+            <th>Loan Proceeds</th>
+            <th>Interest</th>
+            <th>Insurance</th>
+            <th>Documentary Stamp</th>
+            <th>Percentage Tax</th>
+            <th>Total Deductions</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        {% for d in data %}
+            <tr>
+                <td>{{ d.monthly }}</td>
+                <td>{{ d.semi_monthly|number_format }}</td>
+                <td>{{ d.gross_loan|number_format }}</td>
+                <td>{{ d.loan_proceed|number_format }}</td>
+                <td>{{ d.interest|number_format }}</td>
+                <td>{{ d.insurance|number_format }}</td>
+                <td>{{ d.document_stamp|number_format }}</td>
+                <td>{{ d.percentage_tax|number_format }}</td>
+                <td>{{ d.total_deduction|number_format }}</td>
+            </tr>
+        {% endfor %}
+
+        </tbody>
+    </table>
+</div>
+<script type="text/javascript">
+    function printThis(){
+        var $body = $("body");
+        var $backup = $body.html();
+        var $css = $("#css");
+        var $backupCss = $css.attr("href");
+
+        // Tanggal Laman
+        $body.html($("table#printable"));
+        $css.attr("href", "#");
+
+        print();
+        // Balik laman
+        $body.html($backup);
+        $css.attr("href", $backupCss);
+
+    }
+</script>
 </body>
 </html>

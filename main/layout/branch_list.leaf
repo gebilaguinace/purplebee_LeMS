@@ -32,6 +32,9 @@
             <li class="nav-item">
                 <a class="nav-link text-white" href="/admin/accounts">Accounts</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="/admin/password">Change Password</a>
+            </li>
 
         </ul>
         <ul class="navbar-nav">
@@ -104,6 +107,8 @@
             <th>Location</th>
             <th>No. of Employees</th>
             <th>No. of Customers</th>
+            <th>Total Loan Proceeds</th>
+            <th>Total Gross Loans</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -171,26 +176,6 @@
     </div>
 </div>
 
-<!-- Modal Detail -->
-<div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="detailModal" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <form class="modal-content">
-            <div class="modal-header bg-success text-white">
-                <h5 class="modal-title">Branch Details: </h5>
-                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <b>Total Unpaid Loan: </b>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
-            </div>
-        </form>
-    </div>
-</div>
-
 <script type="text/javascript">
     $(document).ready(function () {
 
@@ -208,10 +193,9 @@
                 "createdCell": function(td, cellData, rowData, row, col){
                     $(td).html(
                             "<button data-id=\"" +cellData+ "\" type=\"button\" class=\"mr-1 editBtn btn btn-outline-primary\" data-toggle=\"modal\" data-target=\"#addBranchModal\">Edit</button>" +
-                            "<button data-id=\"" +cellData+ "\" type=\"button\" class=\"mr-1 detailsBtn btn btn-outline-success\" data-toggle=\"modal\" data-target=\"#detailModal\">Details</button>" +
-                            "<button data-id=\"" +cellData+ "\" type=\"button\" class=\"mr-1 deleteBtn btn btn-outline-danger\" data-toggle=\"modal\" data-target=\"#deleteModal\"> Delete</button>"
+                            "<button data-id=\"" +cellData+ "\" type=\"button\" class=\"mr-1 deleteBtn btn btn-danger\" data-toggle=\"modal\" data-target=\"#deleteModal\"> Delete</button>"
                     );
-                    $(td).css("width", "240px");
+                    $(td).css("width", "150px");
                 }
             }],
             language: {

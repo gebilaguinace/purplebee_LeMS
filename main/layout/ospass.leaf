@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Password | {{ accountType }}</title>
+    <title>Print | {{ accountType }}</title>
     <!--  Include FRAMEWORKS  -->
     <link rel="stylesheet" type="text/css" href="{{ config.VENDOR_DIR }}\twbs/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\jquery.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\select.bootstrap4.min.css">
     <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\bootstrap-tagsinput.css">
-
     <script type="text/javascript" src="{{ config.VENDOR_DIR }}\jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="{{ config.VENDOR_DIR }}\twbs/bootstrap/dist/js/bootstrap.js"></script>
     <script type="text/javascript" src="{{ config.JS_DIR }}\jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="{{ config.JS_DIR }}\bootstrap-tagsinput.min.js"></script>
-
-
     <link rel="stylesheet" type="text/css" href="{{ config.CSS_DIR }}\main.css">
 </head>
 <body>
@@ -28,14 +25,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link text-white" href="/admin/branches">Dashboard</a>
+                <a class="nav-link text-white" href="/os/print">Report</a>
                 <span class="sr-only">(current)</span>
             </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="/admin/accounts">Accounts</a>
-            </li>
+
             <li class="nav-item active font-weight-bold">
                 <a class="nav-link text-white" href="#">Change Password</a>
+                <span class="sr-only">(current)</span>
             </li>
 
         </ul>
@@ -47,6 +43,7 @@
         </ul>
     </div>
 </nav>
+
 
 
 <div class="container-fluid card p-3 mr-5 ml-5">
@@ -124,7 +121,7 @@
             <input type="submit" value="Finalize" class="btn btn-success">
         </div>
     </form>
-
 </div>
+
 </body>
 </html>
