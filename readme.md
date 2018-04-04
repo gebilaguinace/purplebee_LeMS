@@ -12,6 +12,9 @@ A Simple College Project
 * [Office Staff Pages](#office-staff-pages)
 
 ## Database Structure
+Database Realationships:
+![alt text](SQL/sql_structure.PNG "Database Relationships")
+
 
 ## Future Updates
 * Remove Office Staff.
