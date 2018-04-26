@@ -73,9 +73,6 @@ class LoginChecker {
 			case 'bm':
 				return "Branch Manager";
 				break;
-			case 'os':
-				return "Office Staff";
-				break;
 			case 'ad':
 				return "Administrator";
 				break;
@@ -92,9 +89,6 @@ class LoginChecker {
 				break;
 			case 'bm':
 				header("location: /bm/customers");
-				break;
-			case 'os':
-				header("location: /os/print");
 				break;
 			case 'ad':
 				header("location: /admin/branches");
