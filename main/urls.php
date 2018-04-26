@@ -1184,8 +1184,6 @@ Route::post("/changePassword", function($data){
 				header("location: /fc/password");
 			}elseif (LoginChecker::getAccountType() == "ad"){
 				header("location: /admin/password");
-			}elseif (LoginChecker::getAccountType() == "os"){
-				header("location: /os/password");
 			}
 			exit;
 		}else{
@@ -1306,25 +1304,6 @@ FROM `debt` WHERE 1 GROUP BY `lending_id`";
 			"accountType" => LoginChecker::convertToText(LoginChecker::getAccountType()),
 			"branchName" => LoginChecker::getBranchName(),
             "data" => $arr
-		));
-	}
-});
-
-Route::get("/os/password", function (){
-	// ASDASDasdasd asdas d asASD as
-	if (!LoginChecker::isLogin()){
-		header("location: /");
-		exit;
-	}else {
-		// Restrict other user from accessing this area
-		LoginChecker::thrower("os");
-
-		// Render the View Interfce
-		Route::render("ospass.leaf", array(
-			"hasFlashCard" => FlashCard::hasFlashCard(),
-			"flashCard" => FlashCard::hasFlashCard() ? FlashCard::getFlashCard() : "",
-			"accountType" => LoginChecker::convertToText(LoginChecker::getAccountType()),
-			"branchName" => LoginChecker::getBranchName()
 		));
 	}
 });
