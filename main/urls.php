@@ -1267,47 +1267,6 @@ Route::get("/fc/report", function (){
 		));
 	}
 });
-
-Route::get("/os/print", function (){
-	// ASDASDasdasd asdas d asASD as
-	if (!LoginChecker::isLogin()){
-		header("location: /");
-		exit;
-	}else {
-		// Restrict other user from accessing this area
-		LoginChecker::thrower("os");
-
-		$sql = "SELECT 	amount as monthly,
-		amount/2 as semi_monthly,
-        (amount/2)*6 as gross_loan,
-        ((amount/2)*6)/1.137 as loan_proceed,
-        ((amount/2)*6)  - ((amount/2)*6)/1.137 as interest,
-     
-      	((amount/2)*6)*0.023 as insurance,
-        ((amount/2)*6)/200 as document_stamp,
-        (((amount/2)*6)  - ((amount/2)*6)/1.137)*0.05 as percentage_tax,
-        (((amount/2)*6)-((amount/2)*6)/1.137) + (((amount/2)*6)*0.023) +  (((amount/2)*6)/200) + ((((amount/2)*6)  - ((amount/2)*6)/1.137)*0.05) as total_deduction
-		
-FROM `debt` WHERE 1 GROUP BY `lending_id`";
-
-		$query = mysqli_query(MySqlLeaf::getCon(), $sql);
-		$arr = array();
-
-		while ($row = mysqli_fetch_array($query)){
-            array_push($arr, $row);
-        }
-
-		// Render the View Interfce
-		Route::render("print.leaf", array(
-			"hasFlashCard" => FlashCard::hasFlashCard(),
-			"flashCard" => FlashCard::hasFlashCard() ? FlashCard::getFlashCard() : "",
-			"accountType" => LoginChecker::convertToText(LoginChecker::getAccountType()),
-			"branchName" => LoginChecker::getBranchName(),
-            "data" => $arr
-		));
-	}
-});
-
 //0xPathList==END
 
 //0xNotFound==START
