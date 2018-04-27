@@ -190,7 +190,6 @@
                         <select name="emptype" id="emptype" class="form-control" required>
                             <option value="" selected disabled>-- EMPLOYEE TYPE --</option>
                             <option value="bm">Branch Manager</option>
-                            <option value="os">Office Staff</option>
                             <option value="fc">Field Collector</option>
                         </select>
                     </div>
