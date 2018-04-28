@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56495b9c-f8ba-4c45-8e04-dd275baf481b" name="Default" comment="" />
+    <list default="true" id="56495b9c-f8ba-4c45-8e04-dd275baf481b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/htdocs.iml" afterPath="$PROJECT_DIR$/.idea/htdocs.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/main/urls.php" afterPath="$PROJECT_DIR$/main/urls.php" />
+    </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,103 +28,68 @@
       <file leaf-file-name="LoginChecker.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/handlers/LoginChecker.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="340">
               <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-              <folding>
-                <marker date="1231532669842" expanded="true" signature="558:704" ph="..." />
-                <marker date="1231532669842" expanded="true" signature="887:1039" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/urls.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="1235" column="0" lean-forward="true" selection-start-line="1235" selection-start-column="0" selection-end-line="1235" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="1251" column="29" lean-forward="false" selection-start-line="1251" selection-start-column="29" selection-end-line="1251" selection-end-column="29" />
               <folding>
                 <element signature="e#51#1239#1#PHP" expanded="false" />
                 <element signature="e#1275#1479#1#PHP" expanded="false" />
                 <element signature="e#1513#1873#1#PHP" expanded="false" />
                 <element signature="e#1907#2667#1#PHP" expanded="false" />
-                <element signature="e#5547#8481#1#PHP" expanded="false" />
-                <element signature="e#8515#8971#1#PHP" expanded="false" />
-                <element signature="e#9340#9605#0#PHP" expanded="false" />
-                <element signature="e#10772#13618#1#PHP" expanded="false" />
-                <element signature="e#13650#14158#1#PHP" expanded="false" />
-                <element signature="e#16938#17012#0#PHP" expanded="false" />
-                <element signature="e#18200#18509#0#PHP" expanded="false" />
-                <element signature="e#18534#18868#0#PHP" expanded="false" />
-                <element signature="e#27591#33478#0#PHP" expanded="false" />
-                <element signature="e#28057#28399#0#PHP" expanded="false" />
-                <element signature="e#36155#36721#0#PHP" expanded="false" />
-                <element signature="e#37391#38014#1#PHP" expanded="false" />
-                <element signature="e#37445#38012#0#PHP" expanded="false" />
-                <element signature="e#38960#39699#0#PHP" expanded="false" />
-                <element signature="e#39123#39666#0#PHP" expanded="false" />
-                <element signature="e#40483#41110#1#PHP" expanded="false" />
-                <element signature="e#42618#43155#1#PHP" expanded="false" />
-                <marker date="1521579423728" expanded="true" signature="435:477" ph="SELECT * FRO... users" />
-                <marker date="1521579423728" expanded="true" signature="2120:2152" ph="SELECT * FRO... company_branches" />
-                <marker date="1521579423728" expanded="true" signature="3315:3413" ph="INSERT INTO `users`... " />
-                <marker date="1521579423728" expanded="true" signature="3565:3683" ph="INSERT INTO `employee_details`... " />
-                <marker date="1521579423728" expanded="true" signature="3952:4054" ph="UPDATE `users`... " />
-                <marker date="1521579423728" expanded="true" signature="4150:4257" ph="UPDATE `employee_details`... " />
-                <marker date="1521579423728" expanded="true" signature="4657:4993" ph="SELECT u.id,... users" />
-                <marker date="1521579423728" expanded="true" signature="5226:5268" ph="DELETE FROM `users`... " />
-                <marker date="1521579423728" expanded="true" signature="5973:6128" ph="SELECT u.id users" />
-                <marker date="1521579423728" expanded="true" signature="6186:6381" ph="SELECT u.id,... users" />
-                <marker date="1521579423728" expanded="true" signature="9421:9485" ph="SELECT `loca... company_branches" />
-                <marker date="1521579423728" expanded="true" signature="9668:9721" ph="DELETE FROM `company_branches`... " />
-                <marker date="1521579423728" expanded="true" signature="10136:10199" ph="INSERT INTO `company_branches`... " />
-                <marker date="1521579423728" expanded="true" signature="10400:10469" ph="UPDATE `company_branches`... " />
-                <marker date="1521579423728" expanded="true" signature="11188:11225" ph="SELECT cb.id... company_branches" />
-                <marker date="1521579423728" expanded="true" signature="11284:11577" ph="SELECT cb.id... company_branches" />
-                <marker date="1521579423728" expanded="true" signature="11349:11420" ph="SELECT COUNT... employee_details" />
-                <marker date="1521579423728" expanded="true" signature="11456:11525" ph="SELECT COUNT... customer" />
-                <marker date="1521579423728" expanded="true" signature="15863:16050" ph="INSERT INTO `lending`... " />
-                <marker date="1521579423728" expanded="true" signature="16246:16329" ph="INSERT INTO `debt`... " />
-                <marker date="1521579423728" expanded="true" signature="16823:16884" ph="UPDATE `customer`... " />
-                <marker date="1521579423728" expanded="true" signature="17335:17527" ph="INSERT INTO `customer`... " />
-                <marker date="1521579423728" expanded="true" signature="17778:17940" ph="UPDATE `customer`... " />
-                <marker date="1521579423728" expanded="true" signature="18246:18337" ph="SELECT `make... customer" />
-                <marker date="1521579423728" expanded="true" signature="18567:18612" ph="DELETE FROM `customer`... " />
-                <marker date="1521579423728" expanded="true" signature="19384:19465" ph="SELECT `id` customer" />
-                <marker date="1521579423728" expanded="true" signature="19524:19667" ph="SELECT `id`,... customer" />
-                <marker date="1521579423728" expanded="true" signature="23959:24020" ph="SELECT `id` lending" />
-                <marker date="1521579423728" expanded="true" signature="24103:24199" ph="SELECT `id`,... lending" />
-                <marker date="1521579423728" expanded="true" signature="25694:25873" ph="SELECT pay.i... customer" />
-                <marker date="1521579423728" expanded="true" signature="25956:26178" ph="SELECT pay.u... customer" />
-                <marker date="1521579423728" expanded="true" signature="28103:28386" ph="SELECT debt.... customer" />
-                <marker date="1521579423728" expanded="true" signature="28469:28893" ph="SELECT debt.... customer" />
-                <marker date="1521579423728" expanded="true" signature="31095:31272" ph="SELECT debt.... customer" />
-                <marker date="1521579423728" expanded="true" signature="31355:31665" ph="SELECT debt.... customer" />
-                <marker date="1521579423728" expanded="true" signature="33535:33723" ph="SELECT SUM(d... customer" />
-                <marker date="1521579423728" expanded="true" signature="33853:33902" ph="UPDATE `customer`... " />
-                <marker date="1521579423728" expanded="true" signature="33853:33916" ph="UPDATE `customer`... " />
-                <marker date="1521579423728" expanded="true" signature="34111:34282" ph="SELECT lend.... customer" />
-                <marker date="1521579423728" expanded="true" signature="34371:34596" ph="SELECT debt.... customer" />
-                <marker date="1521579423728" expanded="true" signature="38382:38608" ph="SELECT debt.... customer" />
-                <marker date="1521579423728" expanded="true" signature="39962:40025" ph="UPDATE `debt`... " />
-                <marker date="1521579423728" expanded="true" signature="40128:40277" ph="INSERT INTO `payment_history`... " />
-                <marker date="1521579423728" expanded="true" signature="41641:41734" ph="SELECT `id` users" />
-                <marker date="1521579423728" expanded="true" signature="41893:41979" ph="UPDATE `users`... " />
-                <marker date="1521579423728" expanded="true" signature="43965:44183" ph="SELECT cust.... customer" />
-                <marker date="1521579423728" expanded="true" signature="43965:44232" ph="SELECT cust.... customer" />
-                <marker date="1521579423728" expanded="true" signature="44454:44519" ph="SELECT `fnam... employee_details" />
-                <marker date="1521579423728" expanded="true" signature="44454:44554" ph="SELECT `fnam... employee_details" />
+                <marker date="1524873927907" expanded="true" signature="435:477" ph="SELECT * FRO... users" />
+                <marker date="1524873927907" expanded="true" signature="2120:2152" ph="SELECT * FRO... company_branches" />
+                <marker date="1524873927907" expanded="true" signature="3315:3413" ph="INSERT INTO `users`... " />
+                <marker date="1524873927907" expanded="true" signature="3565:3683" ph="INSERT INTO `employee_details`... " />
+                <marker date="1524873927907" expanded="true" signature="3952:4054" ph="UPDATE `users`... " />
+                <marker date="1524873927907" expanded="true" signature="4150:4257" ph="UPDATE `employee_details`... " />
+                <marker date="1524873927907" expanded="true" signature="4657:4993" ph="SELECT u.id,... users" />
+                <marker date="1524873927907" expanded="true" signature="5226:5268" ph="DELETE FROM `users`... " />
+                <marker date="1524873927907" expanded="true" signature="6013:6168" ph="SELECT u.id users" />
+                <marker date="1524873927907" expanded="true" signature="6226:6620" ph="SELECT u.id,... users" />
+                <marker date="1524873927907" expanded="true" signature="10252:10316" ph="SELECT `loca... company_branches" />
+                <marker date="1524873927907" expanded="true" signature="10499:10552" ph="DELETE FROM `company_branches`... " />
+                <marker date="1524873927907" expanded="true" signature="10967:11030" ph="INSERT INTO `company_branches`... " />
+                <marker date="1524873927907" expanded="true" signature="11231:11300" ph="UPDATE `company_branches`... " />
+                <marker date="1524873927907" expanded="true" signature="12052:12089" ph="SELECT cb.id... company_branches" />
+                <marker date="1524873927907" expanded="true" signature="12148:12937" ph="SELECT cb.id... company_branches" />
+                <marker date="1524873927907" expanded="true" signature="17303:17490" ph="INSERT INTO `lending`... " />
+                <marker date="1524873927907" expanded="true" signature="17686:17769" ph="INSERT INTO `debt`... " />
+                <marker date="1524873927907" expanded="true" signature="18263:18324" ph="UPDATE `customer`... " />
+                <marker date="1524873927907" expanded="true" signature="18775:18967" ph="INSERT INTO `customer`... " />
+                <marker date="1524873927907" expanded="true" signature="19218:19380" ph="UPDATE `customer`... " />
+                <marker date="1524873927907" expanded="true" signature="19686:19777" ph="SELECT `make... customer" />
+                <marker date="1524873927907" expanded="true" signature="20007:20052" ph="DELETE FROM `customer`... " />
+                <marker date="1524873927907" expanded="true" signature="20824:20905" ph="SELECT `id` customer" />
+                <marker date="1524873927907" expanded="true" signature="20964:21107" ph="SELECT `id`,... customer" />
+                <marker date="1524873927907" expanded="true" signature="25399:25460" ph="SELECT `id` lending" />
+                <marker date="1524873927907" expanded="true" signature="25543:25639" ph="SELECT `id`,... lending" />
+                <marker date="1524873927907" expanded="true" signature="27134:27313" ph="SELECT pay.i... customer" />
+                <marker date="1524873927907" expanded="true" signature="27396:27618" ph="SELECT pay.u... customer" />
+                <marker date="1524873927907" expanded="true" signature="29543:29826" ph="SELECT debt.... customer" />
+                <marker date="1524873927907" expanded="true" signature="29909:30333" ph="SELECT debt.... customer" />
+                <marker date="1524873927907" expanded="true" signature="32535:32712" ph="SELECT debt.... customer" />
+                <marker date="1524873927907" expanded="true" signature="32795:33105" ph="SELECT debt.... customer" />
+                <marker date="1524873927907" expanded="true" signature="34975:35163" ph="SELECT SUM(d... customer" />
+                <marker date="1524873927907" expanded="true" signature="35293:35356" ph="UPDATE `customer`... " />
+                <marker date="1524873927907" expanded="true" signature="35551:35722" ph="SELECT lend.... customer" />
+                <marker date="1524873927907" expanded="true" signature="35811:36036" ph="SELECT debt.... customer" />
+                <marker date="1524873927907" expanded="true" signature="39822:40048" ph="SELECT debt.... customer" />
+                <marker date="1524873927907" expanded="true" signature="41402:41465" ph="UPDATE `debt`... " />
+                <marker date="1524873927907" expanded="true" signature="41568:41717" ph="INSERT INTO `payment_history`... " />
+                <marker date="1524873927907" expanded="true" signature="43081:43174" ph="SELECT `id` users" />
+                <marker date="1524873927907" expanded="true" signature="43333:43419" ph="UPDATE `users`... " />
+                <marker date="1524873927907" expanded="true" signature="45488:45755" ph="SELECT cust.... customer" />
+                <marker date="1524873927907" expanded="true" signature="45977:46077" ph="SELECT `fnam... employee_details" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="print.leaf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/layout/print.leaf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -128,11 +97,9 @@
       <file leaf-file-name="fcreport.leaf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/layout/fcreport.leaf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,16 +107,9 @@
       <file leaf-file-name="pay_fc.leaf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/layout/pay_fc.leaf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="48" />
-              <folding>
-                <element signature="e#2998#3005#1#HTML" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#9;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#6562#8038#0#HTML" expanded="false" />
-              </folding>
+            <state relative-caret-position="884">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,7 +117,7 @@
       <file leaf-file-name="fcpass.leaf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/layout/fcpass.leaf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="51">
               <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding />
             </state>
@@ -167,20 +127,8 @@
       <file leaf-file-name="bmpass.leaf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/layout/bmpass.leaf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="51">
               <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beta" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beta">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="26" column="1" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -189,32 +137,19 @@
       <file leaf-file-name="pay.leaf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/layout/pay.leaf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="136">
               <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding>
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#2714#2721#1#HTML" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#9;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#5549#6935#0#HTML" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer_list.leaf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="customer_list.leaf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/layout/customer_list.leaf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="51">
               <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding>
-                <element signature="e#20246#22028#0#HTML" expanded="false" />
-                <element signature="e#24743#26187#0#HTML" expanded="false" />
-                <element signature="e#26303#28282#0#HTML" expanded="false" />
-                <marker date="1521470352935" expanded="true" signature="22973:23007" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -262,6 +197,9 @@
       <find>changePassword</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -284,12 +222,12 @@
         <option value="$PROJECT_DIR$/rut" />
         <option value="$PROJECT_DIR$/main/layout/customer_list.leaf" />
         <option value="$PROJECT_DIR$/main/layout/pay_fc.leaf" />
-        <option value="$PROJECT_DIR$/main/urls.php" />
         <option value="$PROJECT_DIR$/main/layout/print.leaf" />
         <option value="$PROJECT_DIR$/main/layout/fcreport.leaf" />
         <option value="$PROJECT_DIR$/main/layout/fcpass.leaf" />
         <option value="$PROJECT_DIR$/main/layout/bmpass.leaf" />
         <option value="$PROJECT_DIR$/main/layout/pay.leaf" />
+        <option value="$PROJECT_DIR$/main/urls.php" />
       </list>
     </option>
   </component>
@@ -346,51 +284,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="purplebee_LeMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="purplebee_LeMS" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="purplebee_LeMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="purplebee_LeMS" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="res" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="purplebee_LeMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="purplebee_LeMS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../purplebee" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="settings.editor.splitter.proportion" value="0.23776908" />
@@ -468,11 +388,13 @@
       <workItem from="1521365242974" duration="2592000" />
       <workItem from="1521379112686" duration="9089000" />
       <workItem from="1521428463589" duration="17191000" />
+      <workItem from="1524873458832" duration="1045000" />
+      <workItem from="1524949093834" duration="67000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49007000" />
+    <option name="totallyTimeSpent" value="50119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -484,15 +406,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18594436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19174758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -532,10 +454,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <marker date="1231532669842" expanded="true" signature="558:704" ph="..." />
-            <marker date="1231532669842" expanded="true" signature="887:1039" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -555,72 +474,50 @@
             <element signature="e#1275#1479#1#PHP" expanded="false" />
             <element signature="e#1513#1873#1#PHP" expanded="false" />
             <element signature="e#1907#2667#1#PHP" expanded="false" />
-            <element signature="e#5547#8481#1#PHP" expanded="false" />
-            <element signature="e#8515#8971#1#PHP" expanded="false" />
-            <element signature="e#9340#9605#0#PHP" expanded="false" />
-            <element signature="e#10772#13618#1#PHP" expanded="false" />
-            <element signature="e#13650#14158#1#PHP" expanded="false" />
-            <element signature="e#16938#17012#0#PHP" expanded="false" />
-            <element signature="e#18200#18509#0#PHP" expanded="false" />
-            <element signature="e#18534#18868#0#PHP" expanded="false" />
-            <element signature="e#27591#33478#0#PHP" expanded="false" />
-            <element signature="e#28057#28399#0#PHP" expanded="false" />
-            <element signature="e#36155#36721#0#PHP" expanded="false" />
-            <element signature="e#37391#38014#1#PHP" expanded="false" />
-            <element signature="e#37445#38012#0#PHP" expanded="false" />
-            <element signature="e#38960#39699#0#PHP" expanded="false" />
-            <element signature="e#39123#39666#0#PHP" expanded="false" />
-            <element signature="e#40483#41110#1#PHP" expanded="false" />
-            <element signature="e#42618#43155#1#PHP" expanded="false" />
-            <marker date="1521579423728" expanded="true" signature="435:477" ph="SELECT * FRO... users" />
-            <marker date="1521579423728" expanded="true" signature="2120:2152" ph="SELECT * FRO... company_branches" />
-            <marker date="1521579423728" expanded="true" signature="3315:3413" ph="INSERT INTO `users`... " />
-            <marker date="1521579423728" expanded="true" signature="3565:3683" ph="INSERT INTO `employee_details`... " />
-            <marker date="1521579423728" expanded="true" signature="3952:4054" ph="UPDATE `users`... " />
-            <marker date="1521579423728" expanded="true" signature="4150:4257" ph="UPDATE `employee_details`... " />
-            <marker date="1521579423728" expanded="true" signature="4657:4993" ph="SELECT u.id,... users" />
-            <marker date="1521579423728" expanded="true" signature="5226:5268" ph="DELETE FROM `users`... " />
-            <marker date="1521579423728" expanded="true" signature="5973:6128" ph="SELECT u.id users" />
-            <marker date="1521579423728" expanded="true" signature="6186:6381" ph="SELECT u.id,... users" />
-            <marker date="1521579423728" expanded="true" signature="9421:9485" ph="SELECT `loca... company_branches" />
-            <marker date="1521579423728" expanded="true" signature="9668:9721" ph="DELETE FROM `company_branches`... " />
-            <marker date="1521579423728" expanded="true" signature="10136:10199" ph="INSERT INTO `company_branches`... " />
-            <marker date="1521579423728" expanded="true" signature="10400:10469" ph="UPDATE `company_branches`... " />
-            <marker date="1521579423728" expanded="true" signature="11188:11225" ph="SELECT cb.id... company_branches" />
-            <marker date="1521579423728" expanded="true" signature="11284:11577" ph="SELECT cb.id... company_branches" />
-            <marker date="1521579423728" expanded="true" signature="11349:11420" ph="SELECT COUNT... employee_details" />
-            <marker date="1521579423728" expanded="true" signature="11456:11525" ph="SELECT COUNT... customer" />
-            <marker date="1521579423728" expanded="true" signature="15863:16050" ph="INSERT INTO `lending`... " />
-            <marker date="1521579423728" expanded="true" signature="16246:16329" ph="INSERT INTO `debt`... " />
-            <marker date="1521579423728" expanded="true" signature="16823:16884" ph="UPDATE `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="17335:17527" ph="INSERT INTO `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="17778:17940" ph="UPDATE `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="18246:18337" ph="SELECT `make... customer" />
-            <marker date="1521579423728" expanded="true" signature="18567:18612" ph="DELETE FROM `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="19384:19465" ph="SELECT `id` customer" />
-            <marker date="1521579423728" expanded="true" signature="19524:19667" ph="SELECT `id`,... customer" />
-            <marker date="1521579423728" expanded="true" signature="23959:24020" ph="SELECT `id` lending" />
-            <marker date="1521579423728" expanded="true" signature="24103:24199" ph="SELECT `id`,... lending" />
-            <marker date="1521579423728" expanded="true" signature="25694:25873" ph="SELECT pay.i... customer" />
-            <marker date="1521579423728" expanded="true" signature="25956:26178" ph="SELECT pay.u... customer" />
-            <marker date="1521579423728" expanded="true" signature="28103:28386" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="28469:28893" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="31095:31272" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="31355:31665" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="33535:33723" ph="SELECT SUM(d... customer" />
-            <marker date="1521579423728" expanded="true" signature="33853:33902" ph="UPDATE `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="33853:33916" ph="UPDATE `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="34111:34282" ph="SELECT lend.... customer" />
-            <marker date="1521579423728" expanded="true" signature="34371:34596" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="38382:38608" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="39962:40025" ph="UPDATE `debt`... " />
-            <marker date="1521579423728" expanded="true" signature="40128:40277" ph="INSERT INTO `payment_history`... " />
-            <marker date="1521579423728" expanded="true" signature="41641:41734" ph="SELECT `id` users" />
-            <marker date="1521579423728" expanded="true" signature="41893:41979" ph="UPDATE `users`... " />
-            <marker date="1521579423728" expanded="true" signature="43965:44183" ph="SELECT cust.... customer" />
-            <marker date="1521579423728" expanded="true" signature="43965:44232" ph="SELECT cust.... customer" />
-            <marker date="1521579423728" expanded="true" signature="44454:44519" ph="SELECT `fnam... employee_details" />
-            <marker date="1521579423728" expanded="true" signature="44454:44554" ph="SELECT `fnam... employee_details" />
+            <marker date="1524873927907" expanded="true" signature="435:477" ph="SELECT * FRO... users" />
+            <marker date="1524873927907" expanded="true" signature="2120:2152" ph="SELECT * FRO... company_branches" />
+            <marker date="1524873927907" expanded="true" signature="3315:3413" ph="INSERT INTO `users`... " />
+            <marker date="1524873927907" expanded="true" signature="3565:3683" ph="INSERT INTO `employee_details`... " />
+            <marker date="1524873927907" expanded="true" signature="3952:4054" ph="UPDATE `users`... " />
+            <marker date="1524873927907" expanded="true" signature="4150:4257" ph="UPDATE `employee_details`... " />
+            <marker date="1524873927907" expanded="true" signature="4657:4993" ph="SELECT u.id,... users" />
+            <marker date="1524873927907" expanded="true" signature="5226:5268" ph="DELETE FROM `users`... " />
+            <marker date="1524873927907" expanded="true" signature="6013:6168" ph="SELECT u.id users" />
+            <marker date="1524873927907" expanded="true" signature="6226:6620" ph="SELECT u.id,... users" />
+            <marker date="1524873927907" expanded="true" signature="10252:10316" ph="SELECT `loca... company_branches" />
+            <marker date="1524873927907" expanded="true" signature="10499:10552" ph="DELETE FROM `company_branches`... " />
+            <marker date="1524873927907" expanded="true" signature="10967:11030" ph="INSERT INTO `company_branches`... " />
+            <marker date="1524873927907" expanded="true" signature="11231:11300" ph="UPDATE `company_branches`... " />
+            <marker date="1524873927907" expanded="true" signature="12052:12089" ph="SELECT cb.id... company_branches" />
+            <marker date="1524873927907" expanded="true" signature="12148:12937" ph="SELECT cb.id... company_branches" />
+            <marker date="1524873927907" expanded="true" signature="17303:17490" ph="INSERT INTO `lending`... " />
+            <marker date="1524873927907" expanded="true" signature="17686:17769" ph="INSERT INTO `debt`... " />
+            <marker date="1524873927907" expanded="true" signature="18263:18324" ph="UPDATE `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="18775:18967" ph="INSERT INTO `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="19218:19380" ph="UPDATE `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="19686:19777" ph="SELECT `make... customer" />
+            <marker date="1524873927907" expanded="true" signature="20007:20052" ph="DELETE FROM `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="20824:20905" ph="SELECT `id` customer" />
+            <marker date="1524873927907" expanded="true" signature="20964:21107" ph="SELECT `id`,... customer" />
+            <marker date="1524873927907" expanded="true" signature="25399:25460" ph="SELECT `id` lending" />
+            <marker date="1524873927907" expanded="true" signature="25543:25639" ph="SELECT `id`,... lending" />
+            <marker date="1524873927907" expanded="true" signature="27134:27313" ph="SELECT pay.i... customer" />
+            <marker date="1524873927907" expanded="true" signature="27396:27618" ph="SELECT pay.u... customer" />
+            <marker date="1524873927907" expanded="true" signature="29543:29826" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="29909:30333" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="32535:32712" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="32795:33105" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="34975:35163" ph="SELECT SUM(d... customer" />
+            <marker date="1524873927907" expanded="true" signature="35293:35356" ph="UPDATE `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="35551:35722" ph="SELECT lend.... customer" />
+            <marker date="1524873927907" expanded="true" signature="35811:36036" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="39822:40048" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="41402:41465" ph="UPDATE `debt`... " />
+            <marker date="1524873927907" expanded="true" signature="41568:41717" ph="INSERT INTO `payment_history`... " />
+            <marker date="1524873927907" expanded="true" signature="43081:43174" ph="SELECT `id` users" />
+            <marker date="1524873927907" expanded="true" signature="43333:43419" ph="UPDATE `users`... " />
+            <marker date="1524873927907" expanded="true" signature="45488:45755" ph="SELECT cust.... customer" />
+            <marker date="1524873927907" expanded="true" signature="45977:46077" ph="SELECT `fnam... employee_details" />
           </folding>
         </state>
       </provider>
@@ -657,10 +554,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="73" column="52" lean-forward="false" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
-          <folding>
-            <marker date="1231532669842" expanded="true" signature="558:704" ph="..." />
-            <marker date="1231532669842" expanded="true" signature="887:1039" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -680,72 +574,50 @@
             <element signature="e#1275#1479#1#PHP" expanded="false" />
             <element signature="e#1513#1873#1#PHP" expanded="false" />
             <element signature="e#1907#2667#1#PHP" expanded="false" />
-            <element signature="e#5547#8481#1#PHP" expanded="false" />
-            <element signature="e#8515#8971#1#PHP" expanded="false" />
-            <element signature="e#9340#9605#0#PHP" expanded="false" />
-            <element signature="e#10772#13618#1#PHP" expanded="false" />
-            <element signature="e#13650#14158#1#PHP" expanded="false" />
-            <element signature="e#16938#17012#0#PHP" expanded="false" />
-            <element signature="e#18200#18509#0#PHP" expanded="false" />
-            <element signature="e#18534#18868#0#PHP" expanded="false" />
-            <element signature="e#27591#33478#0#PHP" expanded="false" />
-            <element signature="e#28057#28399#0#PHP" expanded="false" />
-            <element signature="e#36155#36721#0#PHP" expanded="false" />
-            <element signature="e#37391#38014#1#PHP" expanded="false" />
-            <element signature="e#37445#38012#0#PHP" expanded="false" />
-            <element signature="e#38960#39699#0#PHP" expanded="false" />
-            <element signature="e#39123#39666#0#PHP" expanded="false" />
-            <element signature="e#40483#41110#1#PHP" expanded="false" />
-            <element signature="e#42618#43155#1#PHP" expanded="false" />
-            <marker date="1521579423728" expanded="true" signature="435:477" ph="SELECT * FRO... users" />
-            <marker date="1521579423728" expanded="true" signature="2120:2152" ph="SELECT * FRO... company_branches" />
-            <marker date="1521579423728" expanded="true" signature="3315:3413" ph="INSERT INTO `users`... " />
-            <marker date="1521579423728" expanded="true" signature="3565:3683" ph="INSERT INTO `employee_details`... " />
-            <marker date="1521579423728" expanded="true" signature="3952:4054" ph="UPDATE `users`... " />
-            <marker date="1521579423728" expanded="true" signature="4150:4257" ph="UPDATE `employee_details`... " />
-            <marker date="1521579423728" expanded="true" signature="4657:4993" ph="SELECT u.id,... users" />
-            <marker date="1521579423728" expanded="true" signature="5226:5268" ph="DELETE FROM `users`... " />
-            <marker date="1521579423728" expanded="true" signature="5973:6128" ph="SELECT u.id users" />
-            <marker date="1521579423728" expanded="true" signature="6186:6381" ph="SELECT u.id,... users" />
-            <marker date="1521579423728" expanded="true" signature="9421:9485" ph="SELECT `loca... company_branches" />
-            <marker date="1521579423728" expanded="true" signature="9668:9721" ph="DELETE FROM `company_branches`... " />
-            <marker date="1521579423728" expanded="true" signature="10136:10199" ph="INSERT INTO `company_branches`... " />
-            <marker date="1521579423728" expanded="true" signature="10400:10469" ph="UPDATE `company_branches`... " />
-            <marker date="1521579423728" expanded="true" signature="11188:11225" ph="SELECT cb.id... company_branches" />
-            <marker date="1521579423728" expanded="true" signature="11284:11577" ph="SELECT cb.id... company_branches" />
-            <marker date="1521579423728" expanded="true" signature="11349:11420" ph="SELECT COUNT... employee_details" />
-            <marker date="1521579423728" expanded="true" signature="11456:11525" ph="SELECT COUNT... customer" />
-            <marker date="1521579423728" expanded="true" signature="15863:16050" ph="INSERT INTO `lending`... " />
-            <marker date="1521579423728" expanded="true" signature="16246:16329" ph="INSERT INTO `debt`... " />
-            <marker date="1521579423728" expanded="true" signature="16823:16884" ph="UPDATE `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="17335:17527" ph="INSERT INTO `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="17778:17940" ph="UPDATE `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="18246:18337" ph="SELECT `make... customer" />
-            <marker date="1521579423728" expanded="true" signature="18567:18612" ph="DELETE FROM `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="19384:19465" ph="SELECT `id` customer" />
-            <marker date="1521579423728" expanded="true" signature="19524:19667" ph="SELECT `id`,... customer" />
-            <marker date="1521579423728" expanded="true" signature="23959:24020" ph="SELECT `id` lending" />
-            <marker date="1521579423728" expanded="true" signature="24103:24199" ph="SELECT `id`,... lending" />
-            <marker date="1521579423728" expanded="true" signature="25694:25873" ph="SELECT pay.i... customer" />
-            <marker date="1521579423728" expanded="true" signature="25956:26178" ph="SELECT pay.u... customer" />
-            <marker date="1521579423728" expanded="true" signature="28103:28386" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="28469:28893" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="31095:31272" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="31355:31665" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="33535:33723" ph="SELECT SUM(d... customer" />
-            <marker date="1521579423728" expanded="true" signature="33853:33902" ph="UPDATE `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="33853:33916" ph="UPDATE `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="34111:34282" ph="SELECT lend.... customer" />
-            <marker date="1521579423728" expanded="true" signature="34371:34596" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="38382:38608" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="39962:40025" ph="UPDATE `debt`... " />
-            <marker date="1521579423728" expanded="true" signature="40128:40277" ph="INSERT INTO `payment_history`... " />
-            <marker date="1521579423728" expanded="true" signature="41641:41734" ph="SELECT `id` users" />
-            <marker date="1521579423728" expanded="true" signature="41893:41979" ph="UPDATE `users`... " />
-            <marker date="1521579423728" expanded="true" signature="43965:44183" ph="SELECT cust.... customer" />
-            <marker date="1521579423728" expanded="true" signature="43965:44232" ph="SELECT cust.... customer" />
-            <marker date="1521579423728" expanded="true" signature="44454:44519" ph="SELECT `fnam... employee_details" />
-            <marker date="1521579423728" expanded="true" signature="44454:44554" ph="SELECT `fnam... employee_details" />
+            <marker date="1524873927907" expanded="true" signature="435:477" ph="SELECT * FRO... users" />
+            <marker date="1524873927907" expanded="true" signature="2120:2152" ph="SELECT * FRO... company_branches" />
+            <marker date="1524873927907" expanded="true" signature="3315:3413" ph="INSERT INTO `users`... " />
+            <marker date="1524873927907" expanded="true" signature="3565:3683" ph="INSERT INTO `employee_details`... " />
+            <marker date="1524873927907" expanded="true" signature="3952:4054" ph="UPDATE `users`... " />
+            <marker date="1524873927907" expanded="true" signature="4150:4257" ph="UPDATE `employee_details`... " />
+            <marker date="1524873927907" expanded="true" signature="4657:4993" ph="SELECT u.id,... users" />
+            <marker date="1524873927907" expanded="true" signature="5226:5268" ph="DELETE FROM `users`... " />
+            <marker date="1524873927907" expanded="true" signature="6013:6168" ph="SELECT u.id users" />
+            <marker date="1524873927907" expanded="true" signature="6226:6620" ph="SELECT u.id,... users" />
+            <marker date="1524873927907" expanded="true" signature="10252:10316" ph="SELECT `loca... company_branches" />
+            <marker date="1524873927907" expanded="true" signature="10499:10552" ph="DELETE FROM `company_branches`... " />
+            <marker date="1524873927907" expanded="true" signature="10967:11030" ph="INSERT INTO `company_branches`... " />
+            <marker date="1524873927907" expanded="true" signature="11231:11300" ph="UPDATE `company_branches`... " />
+            <marker date="1524873927907" expanded="true" signature="12052:12089" ph="SELECT cb.id... company_branches" />
+            <marker date="1524873927907" expanded="true" signature="12148:12937" ph="SELECT cb.id... company_branches" />
+            <marker date="1524873927907" expanded="true" signature="17303:17490" ph="INSERT INTO `lending`... " />
+            <marker date="1524873927907" expanded="true" signature="17686:17769" ph="INSERT INTO `debt`... " />
+            <marker date="1524873927907" expanded="true" signature="18263:18324" ph="UPDATE `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="18775:18967" ph="INSERT INTO `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="19218:19380" ph="UPDATE `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="19686:19777" ph="SELECT `make... customer" />
+            <marker date="1524873927907" expanded="true" signature="20007:20052" ph="DELETE FROM `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="20824:20905" ph="SELECT `id` customer" />
+            <marker date="1524873927907" expanded="true" signature="20964:21107" ph="SELECT `id`,... customer" />
+            <marker date="1524873927907" expanded="true" signature="25399:25460" ph="SELECT `id` lending" />
+            <marker date="1524873927907" expanded="true" signature="25543:25639" ph="SELECT `id`,... lending" />
+            <marker date="1524873927907" expanded="true" signature="27134:27313" ph="SELECT pay.i... customer" />
+            <marker date="1524873927907" expanded="true" signature="27396:27618" ph="SELECT pay.u... customer" />
+            <marker date="1524873927907" expanded="true" signature="29543:29826" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="29909:30333" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="32535:32712" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="32795:33105" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="34975:35163" ph="SELECT SUM(d... customer" />
+            <marker date="1524873927907" expanded="true" signature="35293:35356" ph="UPDATE `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="35551:35722" ph="SELECT lend.... customer" />
+            <marker date="1524873927907" expanded="true" signature="35811:36036" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="39822:40048" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="41402:41465" ph="UPDATE `debt`... " />
+            <marker date="1524873927907" expanded="true" signature="41568:41717" ph="INSERT INTO `payment_history`... " />
+            <marker date="1524873927907" expanded="true" signature="43081:43174" ph="SELECT `id` users" />
+            <marker date="1524873927907" expanded="true" signature="43333:43419" ph="UPDATE `users`... " />
+            <marker date="1524873927907" expanded="true" signature="45488:45755" ph="SELECT cust.... customer" />
+            <marker date="1524873927907" expanded="true" signature="45977:46077" ph="SELECT `fnam... employee_details" />
           </folding>
         </state>
       </provider>
@@ -874,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,7 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,156 +785,37 @@
     <entry file="file://$PROJECT_DIR$/.leaf" />
     <entry file="file://$PROJECT_DIR$/main/ratchetServer.php" />
     <entry file="file://$PROJECT_DIR$/main/res/js/bootstrap-tagsinput.min.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rut">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/beta">
+    <entry file="file://$PROJECT_DIR$/rut" />
+    <entry file="file://$PROJECT_DIR$/beta" />
+    <entry file="file://$PROJECT_DIR$/lib/handlers/LoginChecker.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/handlers/LoginChecker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <marker date="1231532669842" expanded="true" signature="558:704" ph="..." />
-            <marker date="1231532669842" expanded="true" signature="887:1039" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main/layout/print.leaf" />
     <entry file="file://$PROJECT_DIR$/main/layout/pay_fc.leaf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="48" />
-          <folding>
-            <element signature="e#2998#3005#1#HTML" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#9;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#6562#8038#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/urls.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="1235" column="0" lean-forward="true" selection-start-line="1235" selection-start-column="0" selection-end-line="1235" selection-end-column="0" />
-          <folding>
-            <element signature="e#51#1239#1#PHP" expanded="false" />
-            <element signature="e#1275#1479#1#PHP" expanded="false" />
-            <element signature="e#1513#1873#1#PHP" expanded="false" />
-            <element signature="e#1907#2667#1#PHP" expanded="false" />
-            <element signature="e#5547#8481#1#PHP" expanded="false" />
-            <element signature="e#8515#8971#1#PHP" expanded="false" />
-            <element signature="e#9340#9605#0#PHP" expanded="false" />
-            <element signature="e#10772#13618#1#PHP" expanded="false" />
-            <element signature="e#13650#14158#1#PHP" expanded="false" />
-            <element signature="e#16938#17012#0#PHP" expanded="false" />
-            <element signature="e#18200#18509#0#PHP" expanded="false" />
-            <element signature="e#18534#18868#0#PHP" expanded="false" />
-            <element signature="e#27591#33478#0#PHP" expanded="false" />
-            <element signature="e#28057#28399#0#PHP" expanded="false" />
-            <element signature="e#36155#36721#0#PHP" expanded="false" />
-            <element signature="e#37391#38014#1#PHP" expanded="false" />
-            <element signature="e#37445#38012#0#PHP" expanded="false" />
-            <element signature="e#38960#39699#0#PHP" expanded="false" />
-            <element signature="e#39123#39666#0#PHP" expanded="false" />
-            <element signature="e#40483#41110#1#PHP" expanded="false" />
-            <element signature="e#42618#43155#1#PHP" expanded="false" />
-            <marker date="1521579423728" expanded="true" signature="435:477" ph="SELECT * FRO... users" />
-            <marker date="1521579423728" expanded="true" signature="2120:2152" ph="SELECT * FRO... company_branches" />
-            <marker date="1521579423728" expanded="true" signature="3315:3413" ph="INSERT INTO `users`... " />
-            <marker date="1521579423728" expanded="true" signature="3565:3683" ph="INSERT INTO `employee_details`... " />
-            <marker date="1521579423728" expanded="true" signature="3952:4054" ph="UPDATE `users`... " />
-            <marker date="1521579423728" expanded="true" signature="4150:4257" ph="UPDATE `employee_details`... " />
-            <marker date="1521579423728" expanded="true" signature="4657:4993" ph="SELECT u.id,... users" />
-            <marker date="1521579423728" expanded="true" signature="5226:5268" ph="DELETE FROM `users`... " />
-            <marker date="1521579423728" expanded="true" signature="5973:6128" ph="SELECT u.id users" />
-            <marker date="1521579423728" expanded="true" signature="6186:6381" ph="SELECT u.id,... users" />
-            <marker date="1521579423728" expanded="true" signature="9421:9485" ph="SELECT `loca... company_branches" />
-            <marker date="1521579423728" expanded="true" signature="9668:9721" ph="DELETE FROM `company_branches`... " />
-            <marker date="1521579423728" expanded="true" signature="10136:10199" ph="INSERT INTO `company_branches`... " />
-            <marker date="1521579423728" expanded="true" signature="10400:10469" ph="UPDATE `company_branches`... " />
-            <marker date="1521579423728" expanded="true" signature="11188:11225" ph="SELECT cb.id... company_branches" />
-            <marker date="1521579423728" expanded="true" signature="11284:11577" ph="SELECT cb.id... company_branches" />
-            <marker date="1521579423728" expanded="true" signature="11349:11420" ph="SELECT COUNT... employee_details" />
-            <marker date="1521579423728" expanded="true" signature="11456:11525" ph="SELECT COUNT... customer" />
-            <marker date="1521579423728" expanded="true" signature="15863:16050" ph="INSERT INTO `lending`... " />
-            <marker date="1521579423728" expanded="true" signature="16246:16329" ph="INSERT INTO `debt`... " />
-            <marker date="1521579423728" expanded="true" signature="16823:16884" ph="UPDATE `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="17335:17527" ph="INSERT INTO `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="17778:17940" ph="UPDATE `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="18246:18337" ph="SELECT `make... customer" />
-            <marker date="1521579423728" expanded="true" signature="18567:18612" ph="DELETE FROM `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="19384:19465" ph="SELECT `id` customer" />
-            <marker date="1521579423728" expanded="true" signature="19524:19667" ph="SELECT `id`,... customer" />
-            <marker date="1521579423728" expanded="true" signature="23959:24020" ph="SELECT `id` lending" />
-            <marker date="1521579423728" expanded="true" signature="24103:24199" ph="SELECT `id`,... lending" />
-            <marker date="1521579423728" expanded="true" signature="25694:25873" ph="SELECT pay.i... customer" />
-            <marker date="1521579423728" expanded="true" signature="25956:26178" ph="SELECT pay.u... customer" />
-            <marker date="1521579423728" expanded="true" signature="28103:28386" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="28469:28893" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="31095:31272" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="31355:31665" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="33535:33723" ph="SELECT SUM(d... customer" />
-            <marker date="1521579423728" expanded="true" signature="33853:33902" ph="UPDATE `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="33853:33916" ph="UPDATE `customer`... " />
-            <marker date="1521579423728" expanded="true" signature="34111:34282" ph="SELECT lend.... customer" />
-            <marker date="1521579423728" expanded="true" signature="34371:34596" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="38382:38608" ph="SELECT debt.... customer" />
-            <marker date="1521579423728" expanded="true" signature="39962:40025" ph="UPDATE `debt`... " />
-            <marker date="1521579423728" expanded="true" signature="40128:40277" ph="INSERT INTO `payment_history`... " />
-            <marker date="1521579423728" expanded="true" signature="41641:41734" ph="SELECT `id` users" />
-            <marker date="1521579423728" expanded="true" signature="41893:41979" ph="UPDATE `users`... " />
-            <marker date="1521579423728" expanded="true" signature="43965:44183" ph="SELECT cust.... customer" />
-            <marker date="1521579423728" expanded="true" signature="43965:44232" ph="SELECT cust.... customer" />
-            <marker date="1521579423728" expanded="true" signature="44454:44519" ph="SELECT `fnam... employee_details" />
-            <marker date="1521579423728" expanded="true" signature="44454:44554" ph="SELECT `fnam... employee_details" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/layout/fcreport.leaf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/layout/print.leaf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="884">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/layout/fcpass.leaf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="51">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
@@ -1072,39 +823,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/layout/bmpass.leaf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="51">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/layout/pay.leaf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="136">
           <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#2714#2721#1#HTML" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#7;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#9;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#5549#6935#0#HTML" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/layout/customer_list.leaf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="51">
           <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/layout/fcreport.leaf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/urls.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="1251" column="29" lean-forward="false" selection-start-line="1251" selection-start-column="29" selection-end-line="1251" selection-end-column="29" />
           <folding>
-            <element signature="e#20246#22028#0#HTML" expanded="false" />
-            <element signature="e#24743#26187#0#HTML" expanded="false" />
-            <element signature="e#26303#28282#0#HTML" expanded="false" />
-            <marker date="1521470352935" expanded="true" signature="22973:23007" ph="..." />
+            <element signature="e#51#1239#1#PHP" expanded="false" />
+            <element signature="e#1275#1479#1#PHP" expanded="false" />
+            <element signature="e#1513#1873#1#PHP" expanded="false" />
+            <element signature="e#1907#2667#1#PHP" expanded="false" />
+            <marker date="1524873927907" expanded="true" signature="435:477" ph="SELECT * FRO... users" />
+            <marker date="1524873927907" expanded="true" signature="2120:2152" ph="SELECT * FRO... company_branches" />
+            <marker date="1524873927907" expanded="true" signature="3315:3413" ph="INSERT INTO `users`... " />
+            <marker date="1524873927907" expanded="true" signature="3565:3683" ph="INSERT INTO `employee_details`... " />
+            <marker date="1524873927907" expanded="true" signature="3952:4054" ph="UPDATE `users`... " />
+            <marker date="1524873927907" expanded="true" signature="4150:4257" ph="UPDATE `employee_details`... " />
+            <marker date="1524873927907" expanded="true" signature="4657:4993" ph="SELECT u.id,... users" />
+            <marker date="1524873927907" expanded="true" signature="5226:5268" ph="DELETE FROM `users`... " />
+            <marker date="1524873927907" expanded="true" signature="6013:6168" ph="SELECT u.id users" />
+            <marker date="1524873927907" expanded="true" signature="6226:6620" ph="SELECT u.id,... users" />
+            <marker date="1524873927907" expanded="true" signature="10252:10316" ph="SELECT `loca... company_branches" />
+            <marker date="1524873927907" expanded="true" signature="10499:10552" ph="DELETE FROM `company_branches`... " />
+            <marker date="1524873927907" expanded="true" signature="10967:11030" ph="INSERT INTO `company_branches`... " />
+            <marker date="1524873927907" expanded="true" signature="11231:11300" ph="UPDATE `company_branches`... " />
+            <marker date="1524873927907" expanded="true" signature="12052:12089" ph="SELECT cb.id... company_branches" />
+            <marker date="1524873927907" expanded="true" signature="12148:12937" ph="SELECT cb.id... company_branches" />
+            <marker date="1524873927907" expanded="true" signature="17303:17490" ph="INSERT INTO `lending`... " />
+            <marker date="1524873927907" expanded="true" signature="17686:17769" ph="INSERT INTO `debt`... " />
+            <marker date="1524873927907" expanded="true" signature="18263:18324" ph="UPDATE `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="18775:18967" ph="INSERT INTO `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="19218:19380" ph="UPDATE `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="19686:19777" ph="SELECT `make... customer" />
+            <marker date="1524873927907" expanded="true" signature="20007:20052" ph="DELETE FROM `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="20824:20905" ph="SELECT `id` customer" />
+            <marker date="1524873927907" expanded="true" signature="20964:21107" ph="SELECT `id`,... customer" />
+            <marker date="1524873927907" expanded="true" signature="25399:25460" ph="SELECT `id` lending" />
+            <marker date="1524873927907" expanded="true" signature="25543:25639" ph="SELECT `id`,... lending" />
+            <marker date="1524873927907" expanded="true" signature="27134:27313" ph="SELECT pay.i... customer" />
+            <marker date="1524873927907" expanded="true" signature="27396:27618" ph="SELECT pay.u... customer" />
+            <marker date="1524873927907" expanded="true" signature="29543:29826" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="29909:30333" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="32535:32712" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="32795:33105" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="34975:35163" ph="SELECT SUM(d... customer" />
+            <marker date="1524873927907" expanded="true" signature="35293:35356" ph="UPDATE `customer`... " />
+            <marker date="1524873927907" expanded="true" signature="35551:35722" ph="SELECT lend.... customer" />
+            <marker date="1524873927907" expanded="true" signature="35811:36036" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="39822:40048" ph="SELECT debt.... customer" />
+            <marker date="1524873927907" expanded="true" signature="41402:41465" ph="UPDATE `debt`... " />
+            <marker date="1524873927907" expanded="true" signature="41568:41717" ph="INSERT INTO `payment_history`... " />
+            <marker date="1524873927907" expanded="true" signature="43081:43174" ph="SELECT `id` users" />
+            <marker date="1524873927907" expanded="true" signature="43333:43419" ph="UPDATE `users`... " />
+            <marker date="1524873927907" expanded="true" signature="45488:45755" ph="SELECT cust.... customer" />
+            <marker date="1524873927907" expanded="true" signature="45977:46077" ph="SELECT `fnam... employee_details" />
           </folding>
         </state>
       </provider>

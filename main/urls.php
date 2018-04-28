@@ -1232,6 +1232,10 @@ Route::get("/fc/password", function (){
 		));
 	}
 });
+Route::get("/fieldcollect", function(){
+    echo "asdfdfhgsdgja";
+    exit;
+});
 
 Route::get("/fc/report", function (){
 	// ASDASDasdasd asdas d asASD as
