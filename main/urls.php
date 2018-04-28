@@ -1194,6 +1194,20 @@ Route::post("/changePassword", function($data){
 
 });
 
+//Mga dinagdag ko na url
+Route::get("/fieldCollector", function (){
+    Route::render("field_collector.leaf");
+    exit;
+});
+Route::get("/pay_fc", function (){
+    Route::render("pay_fc.leaf");
+    exit;
+});
+Route::get("/fc_changepass", function (){
+    Route::render("fc_changepass.leaf");
+    exit;
+});
+
 
 Route::get("/fc/pay", function (){
 	// ASDASDasdasd asdas d asASD as
