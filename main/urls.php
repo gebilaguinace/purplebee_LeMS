@@ -1034,7 +1034,7 @@ Route::get("/bm/pay", function (){
         ));
     }
 });
-
+    
 Route::post("/payHandler", function ($data){
 	if (!LoginChecker::isLogin()){
 		header("location: /");
