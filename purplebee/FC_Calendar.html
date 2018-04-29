@@ -19,7 +19,7 @@
     <script defer src="/js/fontawesome-all.js"></script>
     <script defer src="/js/jquery.dataTables.min.js"></script>
 </head>
-<body>
+<body style="background-color: ghostwhite">
 <nav class="navbar navbar-expand-lg navbar-light ">
     <a class="navbar-brand font-weight-bold text-white" href="#">Purpblebee</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +50,26 @@
     </div>
 </nav>
 
-<div class="container mt-3" style="border: 1px solid green;">
+<div class="card container mt-3">
+    <div class="card-header mt-3 font-weight-bold">
+        <div class="row">
+            <div class="col-9">
+                COLLECTION REPORT
+            </div>
+            <div class="col-3">
+                <select id="Pos" class="custom-select" name="Pos" required>
+                    <option value="" selected disabled>== SELECT YEAR == </option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <!--<option value="_other">Other (Define Custom)</option>-->
+                </select>
+            </div>
+        </div>
+
+    </div>
     <div class="row mt-2 p-3">
         <table class="table table-responsive w-100" style="width: 100% !important;">
             <tbody class="w-100" style="display: table">
@@ -171,6 +190,15 @@
                 <td align="center"><a href="#"  data-toggle="modal" data-target="#dcModal">View</a></td>
                 <td align="center">13,200</td>
             </tr>
+            <tr>
+                <td class="font-weight-bold">YEARLY TOTAL</td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center"> - </td>
+                <td align="center">158,400</td>
+            </tr>
             </tbody>
         </table>
     </div>
@@ -234,10 +262,22 @@
                         <td align="center"> - </td>
                         <td align="center"> - </td>
                     </tr>
+                    <tr>
+                        <td class="font-weight-bold">WEEKLY TOTAL</td>
+                        <td align="center"> - </td>
+                        <td align="center"> - </td>
+                        <td align="center"> - </td>
+                        <td align="center"> - </td>
+                        <td align="center"> - </td>
+                        <td align="center"> - </td>
+                        <td align="center"> - </td>
+                        <td align="center">1,400</td>
+                    </tr>
                     </tbody>
                 </table>
             </div>
             <div class="modal-footer">
+                <button type="button" class="btn btn-outline-success" data-dismiss="modal">Print</button>
                 <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
                 <!--<button type="button" class="btn btn-primary">Save changes</button>-->
             </div>
